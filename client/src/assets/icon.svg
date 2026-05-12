@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-label="Mystery Choice">
+  <!-- Squircle backdrop: warm cream like the in-app palette. -->
+  <rect x="0" y="0" width="1024" height="1024" rx="224" fill="#fef3c7"/>
+
+  <!-- Outer ring (deep purple). -->
+  <circle cx="512" cy="512" r="392" fill="#1f1147"/>
+  <!-- Inner amber rim glow. -->
+  <circle cx="512" cy="512" r="392" fill="none" stroke="#fbbf24" stroke-width="14"/>
+
+  <!-- Six pie wedges, alternating carnival colours. Slot 0 centred at 12 o'clock. -->
+  <g transform="translate(512 512)">
+    <!-- Slot 0 (top): orange -->
+    <path d="M 0 0 L -180 -311.8 A 360 360 0 0 1 180 -311.8 Z" fill="#fb923c"/>
+    <!-- Slot 1 (upper right): amber -->
+    <path d="M 0 0 L 180 -311.8 A 360 360 0 0 1 360 0 Z" fill="#fbbf24"/>
+    <!-- Slot 2 (lower right): mint -->
+    <path d="M 0 0 L 360 0 A 360 360 0 0 1 180 311.8 Z" fill="#34d399"/>
+    <!-- Slot 3 (bottom): sky -->
+    <path d="M 0 0 L 180 311.8 A 360 360 0 0 1 -180 311.8 Z" fill="#38bdf8"/>
+    <!-- Slot 4 (lower left): violet -->
+    <path d="M 0 0 L -180 311.8 A 360 360 0 0 1 -360 0 Z" fill="#a78bfa"/>
+    <!-- Slot 5 (upper left): red -->
+    <path d="M 0 0 L -360 0 A 360 360 0 0 1 -180 -311.8 Z" fill="#ef4444"/>
+
+    <!-- Wedge dividers — deep purple lines from centre to rim every 60°. -->
+    <g stroke="#1f1147" stroke-width="6" stroke-linecap="round">
+      <line x1="0" y1="0" x2="0"      y2="-360"/>
+      <line x1="0" y1="0" x2="311.8"  y2="-180"/>
+      <line x1="0" y1="0" x2="311.8"  y2="180"/>
+      <line x1="0" y1="0" x2="0"      y2="360"/>
+      <line x1="0" y1="0" x2="-311.8" y2="180"/>
+      <line x1="0" y1="0" x2="-311.8" y2="-180"/>
+    </g>
+
+    <!-- Centre hub: cream disc with purple dot, mirrors the in-app wheel. -->
+    <circle r="64" fill="#fef3c7" stroke="#1f1147" stroke-width="10"/>
+    <circle r="22" fill="#1f1147"/>
+
+    <!-- Tiny question-mark inside the hub, evoking "mystery". -->
+    <text x="0" y="14" text-anchor="middle" font-family="Fredoka, system-ui, sans-serif"
+          font-weight="700" font-size="44" fill="#fbbf24">?</text>
+  </g>
+
+  <!-- Pointer at 12 o'clock, dipping into the wheel. -->
+  <g transform="translate(512 0)">
+    <path d="M 0 200 L -56 92 Q 0 56 56 92 Z"
+          fill="#1f1147" stroke="#fef3c7" stroke-width="10" stroke-linejoin="round"/>
+  </g>
+</svg>

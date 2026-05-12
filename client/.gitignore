@@ -1,0 +1,20 @@
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Capacitor
+android/.gradle/
+android/local.properties
+android/.idea/
+android/app/build/
+android/build/
+android/captures/
+android/.cxx/
+
+# Test output
+coverage/
+
+# Editor
+.vscode/*
+!.vscode/settings.json

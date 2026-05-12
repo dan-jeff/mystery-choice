@@ -1,0 +1,8 @@
+{
+  "appId": "com.mysterychoice.app",
+  "appName": "Mystery Choice",
+  "webDir": "dist",
+  "android": {
+    "allowMixedContent": false
+  }
+}

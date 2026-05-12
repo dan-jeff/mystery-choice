@@ -1,0 +1,26 @@
+node_modules/
+dist/
+*.sqlite
+*.sqlite-journal
+
+# Capacitor / Android
+client/android/.gradle/
+client/android/local.properties
+client/android/.idea/
+client/android/app/build/
+client/android/build/
+client/android/captures/
+client/android/.cxx/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/*
+!.vscode/settings.json
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
