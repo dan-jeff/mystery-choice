@@ -28,17 +28,3 @@ mystery_choice/
     ├── src/{components,context,hooks,services,utils,styles}/
     └── capacitor.config.json
 ```
-
-## Feature roadmap
-
-See [`specs/README.md`](./specs/README.md) for the full feature index. Phases match HLD §12.2:
-
-- **MVP** (4–6 weeks): foundation, game detection, spinner, weighted random engine, launch
-- **V1.0** (8–10 weeks): history, settings, exclusions, categories, tip jar
-- **V1.1** (+4 weeks): analytics, export, themes, polish
-
-## Source documents
-
-- HLD: `/home/dan/Documents/Notes/2. Projects/Software_Mystery_Choice/Software_Mystery_Choice - HLD.md`
-- Kanban: `/home/dan/Documents/Notes/2. Projects/Software_Mystery_Choice/Software_Mystery_Choice - Kanban.md`
-- Reference app (architecture conventions, not business logic): `/home/dan/Downloads/jellyfin-monitor/`
